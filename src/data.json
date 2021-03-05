@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "id": "flower1",
+            "image":"./images/flower1.jpg",
+            "title": "Red Rose",
+            "descreption": "Beautiful Red Rose",
+            "availableColors":["Red","White"],
+            "price":15
+        },
+        {
+            "id": "flower2",
+            "image":"./images/flower2.jpg",
+            "title": "Lilt",
+            "descreption": "Beautiful Lily",
+            "availableColors":["Yellow","White"],
+            "price":12
+        }
+]}

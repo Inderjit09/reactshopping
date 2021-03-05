@@ -1,9 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from "./App";
+import data from "./data.json";
+import Products from "./components/Products";
 
-function App() {
+class App extends React.Component{
+  constructor()
+  {
+    super();
+    this.state = {
+      products: data.products,
+      color: "",
+      sort: "",
+    };
+  }
+  render()
+  {
   return (
     <div className="grid-container">
 
@@ -12,15 +24,26 @@ function App() {
       </header>
 
       <main>
-        Product List
+        <div className="content">
+
+            <div className="main">
+                <Products products={this.state.products}></Products>
+            </div>
+
+            <div className="sidebar">
+                Cart Items
+            </div>
+
+        </div>
       </main>
 
       <footer>
         All rights are reserved.
       </footer>
-      
+
     </div>
   );
+}
 }
 
 export default App;
