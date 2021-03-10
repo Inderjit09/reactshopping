@@ -1,19 +1,49 @@
 {
     "products":[
         {
-            "id": "flower1",
+            "_id": "1",
             "image":"./images/flower1.jpg",
-            "title": "Red Rose",
+            "title": "Red Rose I love you valentine's day",
             "descreption": "Beautiful Red Rose",
-            "availableColors":["Red","White"],
+            "availableColors":["Red","White","All"],
             "price":15
         },
         {
-            "id": "flower2",
+            "_id": "2",
+            "image":"./images/flower1.jpg",
+            "title": "Red Rose",
+            "descreption": "Beautiful Red Rose",
+            "availableColors":["Red","White","All"],
+            "price":18
+        },
+        {
+            "_id": "3",
             "image":"./images/flower2.jpg",
-            "title": "Lilt",
+            "title": "Lily ",
             "descreption": "Beautiful Lily",
-            "availableColors":["Yellow","White"],
+            "availableColors":["Yellow","White","All"],
             "price":12
+        }, {
+            "_id": "4",
+            "image":"./images/flower1.jpg",
+            "title": "Red Rose",
+            "descreption": "Beautiful Red Rose",
+            "availableColors":["Red","White","All"],
+            "price":18
+        },
+        {
+            "_id": "5",
+            "image":"./images/flower2.jpg",
+            "title": "Lily ",
+            "descreption": "Beautiful Lily",
+            "availableColors":["Yellow","White","All"],
+            "price":12
+        }, {
+            "_id": "6",
+            "image":"./images/flower2.jpg",
+            "title": "Red Rose",
+            "descreption": "Beautiful Red Rose",
+            "availableColors":["Red","White","All"],
+            "price":18
         }
 ]}
