@@ -74,7 +74,7 @@ footer{
 }
 .products li{
   flex: 0 1 29rem;
-  height: 32rem;
+  height: 36rem;
   padding: 1rem;
 
 }
@@ -85,20 +85,20 @@ footer{
   height: 100%;
 }
 .product img{
-  max-width: 21rem;
-  max-height: 21rem;
+  width: 28rem;
+  max-height: 28rem;
   border: .1rem #c0c0c0;
 }
 .product-price{
   display: flex;
   justify-content: space-between;
+  width: 28rem;
   align-items: center;
 }
 .product-price div,
 .product-price button{
   flex:1;
   text-align: center;
-
 }
 
 .product-price div{

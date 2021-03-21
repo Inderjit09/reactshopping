@@ -37,6 +37,10 @@ createOrder = (e) =>
     this.props.createOrder(order);
 };
 
+// orderPlaced = () => {
+//     alert(this.state.name +" ordered "+ this.state.cartItems);
+// }onClick={ this.orderPlaced()}
+
 render()
 {
     const {cartItems} = this.props;
@@ -129,7 +133,8 @@ render()
                                 </li>
 
                                 <li>
-                                    <button className="button primary" type="submit">checkout</button>
+                                    <button className="button primary" type="submit" 
+                                    >checkout</button>
                                 </li>
 
                             </ul>
